@@ -1,6 +1,0 @@
-
-phases:
-- name: co2decomposition
-  thermo: ideal-gas
-  species:
-  - gri30.yaml/species: [CO2, O2, CO]
