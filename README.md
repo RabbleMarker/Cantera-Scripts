@@ -4,28 +4,23 @@ This repository mainly contains Jupyter notebook scripts comparing thermodynamic
 It includes thermodynamic property comparisons of pure substances, mixtures, as well as my attempts at combustion simulations.
 
 ## Repository Structure
-├── README.md
-├── environment_Packages.txt         # List of Conda environment packages
-│
-├── Basics.ipynb                     # Cantera vs CoolProp interface comparison
-│
-├── Single_Species_Thermodynamics/
-│   ├── Fluid_Reference_Data/        # NIST reference data for pure substances
-│   ├── Basic_Properties_with_EOS_variation.ipynb       # EOS comparison for pure substances
-│   ├── Basic_Properties_with_EOS_variation_Plotting.ipynb  # Visualization of EOS results
-│   ├── Graphs/                      # Generated plots
-│   └── DataResults/                 # Raw data
-│
-└── Multi_Species_Thermodynamics/
-    ├── Fluid_Reference_Data/        # Extracted data from literature
-    ├── Law_H2AirDensities.ipynb     # H2-Air mixture density analysis
-    ├── Law_CH4N2Densities.ipynb     # CH4-N2 mixture density analysis
-    ├── Law_CriticalPT.ipynb         # Critical properties of H2/CH4-air mixtures
-    ├── Law_LamFlameSpeeds.ipynb     # Laminar flame speed simulations (Needs more work)
-    ├── Graphs/                      # Generated plots
-    └── DataResults/                 # Raw data
+- README.md
+- environment_Packages.txt         # List of Conda environment packages
+- Basics.ipynb                     # Cantera vs CoolProp interface comparison
 
+- Single_Species_Thermodynamics/Fluid_Reference_Data/        # NIST reference data for pure substances
+- Single_Species_Thermodynamics/Basic_Properties_with_EOS_variation.ipynb       # EOS comparison for pure substances
+- Single_Species_Thermodynamics/Basic_Properties_with_EOS_variation_Plotting.ipynb  # Visualization of EOS results
+- Single_Species_Thermodynamics/Graphs/                      # Generated plots
+- Single_Species_Thermodynamics/DataResults/                 # Raw data
 
+-Multi_Species_Thermodynamics/Fluid_Reference_Data/        # Extracted data from literature
+-Multi_Species_Thermodynamics/Law_H2AirDensities.ipynb     # H2-Air mixture density analysis
+-Multi_Species_Thermodynamics/Law_CH4N2Densities.ipynb     # CH4-N2 mixture density analysis
+-Multi_Species_Thermodynamics/Law_CriticalPT.ipynb         # Critical properties of H2/CH4-air mixtures
+-Multi_Species_Thermodynamics/Law_LamFlameSpeeds.ipynb     # Laminar flame speed simulations (Needs more work)
+-Multi_Species_Thermodynamics/Graphs/                      # Generated plots
+-Multi_Species_Thermodynamics/DataResults/                 # Raw data
 
 ## Condensed Setup instructions. For full instructions, please see
 [https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html] On how to install the conda Package manager (Miniconda or CondaForge is recommended)
@@ -37,7 +32,7 @@ bash <conda-installer-name>-latest-Linux-x86_64.sh    (Edit the command to refle
 
 ## Installing cantera, ipython, matplotlib, jupyter
 conda create --name ct-env --channel conda-forge cantera ipython matplotlib jupyter
-## To use the created environment, run
+# To use the created environment, run
 conda activate ct-env
 
 ## Installing CoolProp
