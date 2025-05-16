@@ -8,19 +8,19 @@ It includes thermodynamic property comparisons of pure substances, mixtures, as 
 - environment_Packages.txt         # List of Conda environment packages
 - Basics.ipynb                     # Cantera vs CoolProp interface comparison
 
-- Single_Species_Thermodynamics/Fluid_Reference_Data/        # NIST reference data for pure substances
-- Single_Species_Thermodynamics/Basic_Properties_with_EOS_variation.ipynb       # EOS comparison for pure substances
-- Single_Species_Thermodynamics/Basic_Properties_with_EOS_variation_Plotting.ipynb  # Visualization of EOS results
-- Single_Species_Thermodynamics/Graphs/                      # Generated plots
-- Single_Species_Thermodynamics/DataResults/                 # Raw data
+/Single_Species_Thermodynamics/Fluid_Reference_Data/        # NIST reference data for pure substances
+/Single_Species_Thermodynamics/Basic_Properties_with_EOS_variation.ipynb       # EOS comparison for pure substances
+/Single_Species_Thermodynamics/Basic_Properties_with_EOS_variation_Plotting.ipynb  # Visualization of EOS results
+/Single_Species_Thermodynamics/Graphs/                      # Generated plots
+/Single_Species_Thermodynamics/DataResults/                 # Raw data
 
--Multi_Species_Thermodynamics/Fluid_Reference_Data/        # Extracted data from literature
--Multi_Species_Thermodynamics/Law_H2AirDensities.ipynb     # H2-Air mixture density analysis
--Multi_Species_Thermodynamics/Law_CH4N2Densities.ipynb     # CH4-N2 mixture density analysis
--Multi_Species_Thermodynamics/Law_CriticalPT.ipynb         # Critical properties of H2/CH4-air mixtures
--Multi_Species_Thermodynamics/Law_LamFlameSpeeds.ipynb     # Laminar flame speed simulations (Needs more work)
--Multi_Species_Thermodynamics/Graphs/                      # Generated plots
--Multi_Species_Thermodynamics/DataResults/                 # Raw data
+/Multi_Species_Thermodynamics/Fluid_Reference_Data/        # Extracted data from literature
+/Multi_Species_Thermodynamics/Law_H2AirDensities.ipynb     # H2-Air mixture density analysis
+/Multi_Species_Thermodynamics/Law_CH4N2Densities.ipynb     # CH4-N2 mixture density analysis
+/Multi_Species_Thermodynamics/Law_CriticalPT.ipynb         # Critical properties of H2/CH4-air mixtures
+/Multi_Species_Thermodynamics/Law_LamFlameSpeeds.ipynb     # Laminar flame speed simulations (Needs more work)
+/Multi_Species_Thermodynamics/Graphs/                      # Generated plots
+/Multi_Species_Thermodynamics/DataResults/                 # Raw data
 
 ## Condensed Setup instructions. For full instructions, please see
 [https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html] On how to install the conda Package manager (Miniconda or CondaForge is recommended)
