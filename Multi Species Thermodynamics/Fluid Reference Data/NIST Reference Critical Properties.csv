@@ -1,5 +1,5 @@
-Element,Molar Mass [g/mol],Critical temperature (Tc) [K],Critical pressure (Pc) [atm],Critical density (Dc) [kg/m3]
-N2,28.0134,126.192,33.514,313.3
-CH4,16.0425,190.564,45.391,162.66
-H2,2.01588,33.145,12.794,31.262
-O2,31.9988,154.581,49.771,436.1
+Element,Molar Mass [g/mol],Critical temperature (Tc) [K],Critical pressure (Pc) [atm],Critical density (Dc) [kg/m3],Source
+N2,28.0134,126.192,33.514,313.3,NIST Chemistry Webbook
+CH4,16.0425,190.564,45.391,162.66,NIST Chemistry Webbook
+H2,2.01588,33.145,12.794,31.262,NIST Chemistry Webbook
+O2,31.9988,154.581,49.771,436.1,NIST Chemistry Webbook
