@@ -42,7 +42,7 @@ conda create --name ct-env --channel conda-forge cantera ipython matplotlib jupy
 
 To install CoolProp, run
 ```text
-conda install conda-forge::coolprop  To install CoolProp
+conda install conda-forge::coolprop
 ```
 
 To activate the installed environment, you can run
