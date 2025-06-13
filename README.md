@@ -28,10 +28,6 @@ It includes thermodynamic property comparisons of pure substances, mixtures, as 
     ├── Graphs/                      # Mixture plots
     └── DataResults/                 # Mixture raw data
 ```
-## Condensed Setup instructions. For full instructions, please see
-[https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html] On how to install the conda Package manager (Miniconda or CondaForge is recommended)
-[https://cantera.org/stable/install/conda.html#sec-install-conda] on how to install Cantera in a conda environment
-[http://www.coolprop.org/coolprop/wrappers/Python/index.html#automatic-installation] on installing the CoolProp Package
 
 ## Installing conda:
 bash <conda-installer-name>-latest-Linux-x86_64.sh    (Edit the command to reflect which conda package you've downloaded)
@@ -44,7 +40,12 @@ conda activate ct-env
 ## Installing CoolProp
 conda install conda-forge::coolprop
 
+## Additional Information
+[https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html] on how to install the conda Package manager (Miniconda or CondaForge is recommended)
 
+[https://cantera.org/stable/install/conda.html#sec-install-conda] on how to install Cantera in a conda environment
+
+[http://www.coolprop.org/coolprop/wrappers/Python/index.html#automatic-installation] on installing the CoolProp Package
 
 ## References
 - [Cantera Documentation](https://cantera.org/index.html)
