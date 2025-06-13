@@ -29,16 +29,14 @@ It includes thermodynamic property comparisons of pure substances, mixtures, as 
     └── DataResults/                 # Mixture raw data
 ```
 
-## Installing conda:
-bash <conda-installer-name>-latest-Linux-x86_64.sh    (Edit the command to reflect which conda package you've downloaded)
+## Installation:
+bash <conda-installer-name>-latest-Linux-x86_64.sh  To install conda (Edit the command to reflect which conda package you've downloaded)
 
-## Installing cantera, ipython, matplotlib, jupyter
-conda create --name ct-env --channel conda-forge cantera ipython matplotlib jupyter
-# To use the created environment, run
-conda activate ct-env
+conda create --name ct-env --channel conda-forge cantera ipython matplotlib jupyter  To install cantera, ipython, matplotlib, jupyter
 
-## Installing CoolProp
-conda install conda-forge::coolprop
+conda activate ct-env  To activate the set up environment
+
+conda install conda-forge::coolprop  To install CoolProp
 
 ## Additional Information
 [https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html] on how to install the conda Package manager (Miniconda or CondaForge is recommended)
