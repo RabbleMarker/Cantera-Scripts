@@ -1,13 +1,12 @@
 # Cantera & CoolProp Thermodynamic Comparisons
 
-This repository mainly contains Jupyter notebook scripts comparing thermodynamic properties using Canteras and CoolProps integrated Equations of State (EOS)
-It includes thermodynamic property comparisons of pure substances, mixtures, as well as my attempts at combustion simulations.
+This repository mainly contains Jupyter notebook scripts comparing thermodynamic properties using Canteras and CoolProps integrated Equations of State (EOS).
+It includes thermodynamic property comparisons of pure substances, mixtures, as well as laminar flame speed calculations at elevated pressures.
 
 ## Repository Structure
 
 ```text
 .
-├── LICENSE
 ├── README.md
 ├── environment_Packages.txt         # List of Conda environment packages
 ├── Basics.ipynb                     # Cantera vs CoolProp interface comparison
@@ -50,7 +49,7 @@ To activate the installed environment, you can run
 conda activate ct-env
 ```
 
-## Additional Information
+## Additional Installation Information
 [https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html] on how to install the conda Package manager (Miniconda or CondaForge is recommended)
 
 [https://cantera.org/stable/install/conda.html#sec-install-conda] on how to install Cantera in a conda environment
